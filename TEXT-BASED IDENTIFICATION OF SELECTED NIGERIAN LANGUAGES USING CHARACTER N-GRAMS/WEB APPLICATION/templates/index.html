@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title></title>
+</head>
+
+	<body style="background-color:powderblue;">
+		<h1>
+		Language Identification Application
+		<p>
+			<font size="+1">
+				This application identifies the language of a written text. It is Covers Nigerian Languages such as Yoruba, Igbo and Hausa Languages. Other Nigerian Languages will be included soon.
+			</font>
+		</p>
+	</h1><br><br><br>
+
+<form action="/" method="post">
+		<center>
+			<label style="color:rgb(255,0,0);" for="user_input"> <font size="+2">Enter A Text Here and Discover the Language</font> </label><br><br>
+			<input type="text"  name='user_input'  size = "80" value="{{ user_value }}">
+			<input type="submit" value="Submit">
+		</center>
+	
+		<center>
+
+			<font size = "+2">
+			{% if result %}
+			{{result}}
+			{% endif %}
+
+			</font>
+		</center>
+    
+
+	
+	</body>
+
+
+</html>
