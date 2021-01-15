@@ -1,7 +1,7 @@
 # Language-Identification
 
 ## Description
-Identify the Nigerian language in which a text is written. This Machine Learning problem focuses on classifying a Nigerian Text into its language class. The languages are modelled using character Ngrams as language features and the algorithm used for classification is the Mutual Cross Entropy Algorithm. The model is then deployed using a local web application. Classification accuracy of upto 80% is recorded.
+Identify the Nigerian language in which a text is written. This Machine Learning problem focuses on classifying a Nigerian Text into its language class. The languages are modelled using character Ngrams as language features and the algorithm used for classification is the Mutual Cross Entropy Algorithm. The model is then deployed using a local web application. Classification accuracy of upto 92% is recorded.
 
 ## Files
 The files in this repository include:
