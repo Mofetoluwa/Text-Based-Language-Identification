@@ -1,4 +1,5 @@
 # Language-Identification
+Final Year Project for Adeyemi Mofetoluwa and Ododo Peace. Isu Mohammed also contributed to this project
 
 ## Description
 Identify the Nigerian language in which a text is written. This Machine Learning problem focuses on classifying a Nigerian Text into its language class. The languages are modelled using character Ngrams as language features and the algorithm used for classification is the Mutual Cross Entropy Algorithm. The model is then deployed using a local web application. Classification accuracy of upto 92% is recorded.
